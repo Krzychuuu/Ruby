@@ -15,13 +15,13 @@ main()
 {
    int n;
  
-   printf("Enter an integer\n");
-   scanf("%d",&n);
+   printf('Enter an integer\n');
+   scanf('%d',&n);
  
    if ( n%2 == 0 )
-      printf("Even\n");
+      printf('Even\n');
    else
-      printf("Odd\n");
+      printf('Odd\n');
  
    return 0;
 }
@@ -46,7 +46,7 @@ description: 'Sample text'
 Gist.create(
 snippet:
 "
-<?php echo "Sample text!"; ?>
+<?php echo 'Sample text!'; ?>
 ",
 lang: 'php',
 description: 'Sample text'
