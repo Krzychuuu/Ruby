@@ -29,27 +29,3 @@ main()
 lang: 'C',
 description: 'Odd or even'
 )
-# ---------------------------------------------
-Gist.create(snippet:
-"
-Program Sample_Text;
-
-{$APPTYPE CONSOLE}
-
-Begin
-  WriteLn('Sample text');
-End.
-",
-lang: 'delphi',
-description: 'Sample text'
-)
-# ---------------------------------------------
-Gist.create(
-snippet:
-"
-<?php echo 'Sample text!'; ?>
-",
-lang: 'php',
-description: 'Sample text'
-)
-
