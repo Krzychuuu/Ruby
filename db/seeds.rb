@@ -30,7 +30,7 @@ lang: 'C',
 description: 'Odd or even'
 )
 # ---------------------------------------------
-snippet:
+Gist.create(snippet:
 "
 Program Sample_Text;
 
@@ -42,7 +42,8 @@ End.
 ",
 lang: 'delphi',
 description: 'Sample text'
-)# ---------------------------------------------
+)
+# ---------------------------------------------
 Gist.create(
 snippet:
 "

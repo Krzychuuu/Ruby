@@ -46,7 +46,7 @@ description: 'Sample text'
 Gist.create(
 snippet:
 "
-<?php echo "Sample text!"; ?>
+<?php echo 'Sample text!'; ?>
 ",
 lang: 'php',
 description: 'Sample text'
