@@ -1,0 +1,9 @@
++ INFO:
+Pierwszy projekt na zaliczenie.
+
++ Użyte gemy:
+
+
++ Link do Heroku:
+http://kochedzan.herokuapp.com/
+

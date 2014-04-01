@@ -1,0 +1,22 @@
+<h1>CODE LIST<br>(scroll down to see more)</h1>
+<%= link_to 'ADD GIST', new_gist_path, :class => "btn btn-success btn-lg btn-block" %></button>
+
+<table id="gists">
+  <thead>
+    <tr>
+      <th>CODE</th>
+      <th>LANG.</th>
+      <th>DESC.</th>
+      <th colspan="3">OPTIONS</th>
+    </tr>
+  </thead>
+
+  <tbody id="my-gists">
+	<%= render @gists %>
+  </tbody>
+</table>
+<div id="infinite-scrolling">
+  <center><%= will_paginate %></center>
+</div>
+
+
