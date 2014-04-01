@@ -1,47 +1,50 @@
 body {
-background-color: gray;
-color: black; 
+	background-color: gray;
+	color: black; 
+	padding-top:40px;
 }
-
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size:   18px;
-  line-height: 18px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:   18px;
+	line-height: 18px;
 }
-
 pre {
-  border: 0,5px dotted #E9C2A6;
-  padding: 6px;
-  font-size: 12px;
-  text-align: left;
-  margin: 5px;
-  color: white;
+	border: 0,5px dotted #E9C2A6;
+	padding: 6px;
+	font-size: 12px;
+	text-align: left;
+	margin: 5px;
+	color: white;
 }
-
-a { color: #fff; text-decoration: none; font-weight:bold; }
-a:visited { color: #fff; text-decoration: none;}
-a:hover { color: #fff; text-decoration: none; }
-
+a {
+	color: black; text-decoration: none; font-weight:bold; 
+}
+a:visited {
+	color: black; text-decoration: none;
+}
+a:hover {
+	color: black; text-decoration: none;
+}
 textarea
 {
-background-color: lightgray;
-width: 50%;
-height: 200px;
-color: black;
+	background-color: lightgray;
+	width: 50%;
+	height: 200px;
+	color: black;
 }
 select
 {
-background-color: lightgray;
-color: black;
+	background-color: lightgray;
+	width: 50%;
+	color: black;
 }
 
-input
+#gist_description
 {
-vertical-alignment: top;
-background-color: lightgray;
-width: 30%;
-height: 80px;
-color: black;
+	background-color: lightgray;
+	width: 50%;
+	height: 80px;
+	color: black;
 }
 
 #noticewlasny

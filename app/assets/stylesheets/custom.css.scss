@@ -1,115 +1,67 @@
 @import "bootstrap";
 
-/* mixins, variables, etc. */
+	html {
+	  	overflow-y: scroll;
+	}
 
-$grayMediumLight: #eaeaea;
-$grayLight: #999;
-$gray: #999990; 
-$grayDarker: #999996;
-
-/* universal */
-
-html {
-  overflow-y: scroll;
-}
-
-body {
-  padding-top: 40px;
-}
-
-section {
-  overflow: auto;
-}
-textarea {
-  resize: vertical;
-}
-.center {
-  text-align: center;
-  h1 {
-    margin-bottom: 10px;
-  }
-}
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
-}
-
-h1 {
-  font-size: 1.8em;
-  text-align: center;
-  color: black;
-}
-h5 {
-  font-size: 1em;
-  text-align: center;
-  color: black;
-}
-
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-weight: normal;
-  color: $grayLight;
-}
-
-p {
-  font-size: 0.8em;
-  line-height: 1.2em;
-}
-  cpright {
-    float: right;
-    color: black;
-    font-style: italic;
-    font-size: 0.6em;
-  }
-
-
-table { 
-color: #fff;
-font-family: Helvetica, Arial, sans-serif;
-width: 100%;
-border: 1px solid black;
-border-spacing: 0;
-}
-
-td, th { 
-border: 1px solid black;
-height: 30px; 
-padding: 5px;
-color: black;
-}
-
-th {
-background: darkgray;
-font-weight: bold;
-text-align: center; 
-}
-
-td {
-background: lightgray;
-text-align: center;
-border: 1px solid black;
-color: black;
-}
-/*
-Max width before this PARTICULAR table gets nasty
-This query will take effect for any screen smaller than 760px
-and also iPads specifically.
-*/
+	section {
+		overflow: auto;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		line-height: 1;
+	}
+	h1 {
+		font-size: 1.8em;
+		text-align: center;
+		color: black;
+	}
+	h5 {
+	 	font-size: 1em;
+	  	text-align: center;
+	  	color: black;
+	}
+	h2 {
+		font-size: 1.2em;
+		letter-spacing: -1px;
+		margin-bottom: 30px;
+		text-align: center;
+		font-weight: normal;
+		color: darkgray;
+	}
+	cpright {
+		float: right;
+		color: black;
+		font-style: italic;
+		font-size: 0.6em;
+	}
+	table { 
+		color: black;
+		font-family: Helvetica, Arial, sans-serif;
+		width: 100%;
+		border: 1px solid black;
+		border-spacing: 0;
+	}
+	td, th { 
+		border: 1px solid black;
+		padding: 5px;
+		color: black;
+	}
+	th {
+		background: darkgray;
+		font-weight: bold;
+		text-align: center; 
+	}
+	td {
+		background: lightgray;
+		text-align: center;
+		border: 1px solid black;
+		color: black;
+	}
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-
-	/* Force table to not be like tables anymore */
+only screen and (max-width: 760px),(min-device-width: 768px) and (max-device-width: 1024px)  {
 	table, thead, tbody, th, td, tr { 
 		display: block; 
 	}
-/*	cpright{
-		display: none;
-	}
-*/	
-	/* Hide table headers (but not display: none;, for accessibility) */
 	thead tr { 
 		position: absolute;
 		top: -9999px;
@@ -123,18 +75,13 @@ only screen and (max-width: 760px),
 		border-bottom: 2px solid #ccc;
 		margin-bottom: 15px;
 	}
-	
 	td { 
-		/* Behave  like a "row" */
 		padding: 3px;
 		border: 1px solid black;
 		position: relative;
 	}
-	
 	td:before { 
-		/* Now like a table header */
 		position: absolute;
-		/* Top/left values mimic padding */
 		left: 6px;
 		width: 45%;
 		white-space: nowrap;
