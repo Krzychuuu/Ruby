@@ -2,4 +2,4 @@
 
 <%= render 'form' %>
 
-<%= link_to 'BACK', gists_path, :class => "btn btn-danger" %>
+

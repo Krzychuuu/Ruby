@@ -29,6 +29,6 @@
     <%= f.label :CODE %><br>
     <%= f.text_area :snippet %>
   </div> 
-    <%= f.submit 'CONFIRM', data: { confirm: 'Are you sure ?' }, :class => "btn btn-success btn-md btn-active" %></button><br>
-<%= link_to 'BACK', gists_path, :class => "btn btn-danger" %>
+    <%= f.submit 'CONFIRM', data: { confirm: 'Are you sure ?' }, :class => "btn btn-default btn-md btn-active" %></button><br>
+<%= link_to 'BACK', gists_path, :class => "btn btn-default %>
 <% end %>
