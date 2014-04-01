@@ -17,22 +17,18 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
-    <%= f.label :kod %><br>
-    <%= f.text_area :snippet %>
-  </div>
-  <div class="field">
-    <%= f.label :język %><br>
+    <%= f.label :LANGUAGE %><br>
     <%= f.select :lang, all_lexers %>
-  </div>
-  <div class="field">
-    <%= f.label :opis %><br>
+  </div> 
+<div class="field">
+    <%= f.label :DESCRIPTION %><br>
     <%= f.text_field :description %>
   </div>
-<br>
-  <div class="actions">
-    <%= f.submit 'Zatwierdź', data: { confirm: 'Czy na pewno zachować wprowadzone zmiany?' }, :class => "btn btn-success btn-lg" %>
-  </div>
-<br>
+  <div class="field">
+    <%= f.label :CODE %><br>
+    <%= f.text_area :snippet %>
+  </div> 
+    <%= f.submit 'CONFIRM', data: { confirm: 'Are you sure ?' }, :class => "btn btn-success btn-md btn-active" %></button><br>
+<%= link_to 'BACK', gists_path, :class => "btn btn-danger" %>
 <% end %>

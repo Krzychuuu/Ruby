@@ -1,4 +1,7 @@
-body { background-color: gray; color: #fff; }
+body {
+background-color: gray;
+color: #fff; 
+}
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -7,11 +10,12 @@ body, p, ol, ul, td {
 }
 
 pre {
-  background-color: #dadc30;
-  padding: 10px;
-  font-size: 13px;
+  background-color: #ccff99;
+  padding: 6px;
+  font-size: 12px;
   text-align: left;
-  margin: 7px;
+  margin: 5px;
+color: white;
 }
 
 a { color: #fff; text-decoration: none; font-weight:bold; }
@@ -20,19 +24,24 @@ a:hover { color: #fff; text-decoration: none; }
 
 textarea
 {
-background-color: #1888b9;
-width: 100%;
-height: 500px;
+background-color: lightgray;
+width: 50%;
+height: 200px;
+color: black;
 }
-
 select
 {
-background-color: #1888b9;
+background-color: lightgray;
+color: black;
 }
 
 input
 {
-background-color: #1888b9;
+vertical-alignment: top;
+background-color: lightgray;
+width: 30%;
+height: 80px;
+color: black;
 }
 
 #noticewlasny
@@ -46,11 +55,12 @@ line-height: normal;
 background-color: #5cb85c;
 border-color: #4cae4c;
 border-radius: 4px;
-
 }
 
-div.field, div.actions {
+div.field {
   margin-bottom: 10px;
+}
+div.actions {
 }
 
 #notice {
