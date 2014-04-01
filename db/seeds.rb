@@ -9,14 +9,47 @@
 Gist.create(
 snippet:
 "
-Program Hello_World;
+#include<stdio.h>
+ 
+main()
+{
+   int n;
+ 
+   printf('Enter an integer\n');
+   scanf('%d',&n);
+ 
+   if ( n%2 == 0 )
+      printf('Even\n');
+   else
+      printf('Odd\n');
+ 
+   return 0;
+}
+",
+lang: 'C',
+description: 'Odd or even'
+)
+# ---------------------------------------------
+Gist.create(snippet:
+"
+Program Sample_Text;
 
 {$APPTYPE CONSOLE}
 
 Begin
-  WriteLn('Hello World');
+  WriteLn('Sample text');
 End.
 ",
 lang: 'delphi',
-description: 'Hello World w Delphi'
+description: 'Sample text'
 )
+# ---------------------------------------------
+Gist.create(
+snippet:
+"
+<?php echo 'Sample text!'; ?>
+",
+lang: 'php',
+description: 'Sample text'
+)
+
