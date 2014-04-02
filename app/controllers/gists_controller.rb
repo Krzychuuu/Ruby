@@ -4,11 +4,11 @@ class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
   def index
-@gists = Gist.paginate(:page => params[:page], :per_page => 8).order('created_at DESC')
-respond_to do |format|
-  format.html
-  format.js
-end
+      @gists = Gist.search(params[:search]).paginate(page: params[:page], per_page: 8).order('created_at DESC')
+      respond_to do |format|
+      format.html
+      format.js
+    end
 
 #  @gists = Gist.all
   end
@@ -34,7 +34,7 @@ end
 
     respond_to do |format|
       if @gist.save
-        format.html { redirect_to @gist, notice: 'Kod został poprawnie dodany.' }
+        format.html { redirect_to @gist, notice: 'ADDED GIST:' }
         format.json { render action: 'show', status: :created, location: @gist }
       else
         format.html { render action: 'new' }
@@ -48,7 +48,7 @@ end
   def update
     respond_to do |format|
       if @gist.update(gist_params)
-        format.html { redirect_to @gist, notice: 'Kod został poprawnie zaktualizowany.' }
+        format.html { redirect_to @gist, notice: 'UPDATED' }
         format.json { render action: 'show', status: :ok, location: @gist }
       else
         format.html { render action: 'edit' }

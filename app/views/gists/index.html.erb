@@ -2,7 +2,12 @@
 <h5>(scroll down to see more)<h5>
 <hr>
 <%= link_to 'ADD NEW GIST CODE' , new_gist_path, :class => "btn btn-success btn-md btn-active" %></button>
-<br><br>
+<hr>
+<%= form_tag gists_path, :method => 'get',:class =>"form-search", :id => "gists_search" do %>
+<%= text_field_tag :search, params[:search], :class => 'input-small search-query'%>
+<%= submit_tag "SEARCH BY LANG." , :name => nil, :class => 'btn btn-success btn-md btn-active' %></button>
+<% end %>
+<hr>
 <table id="gists">
   <thead>
     <tr>
