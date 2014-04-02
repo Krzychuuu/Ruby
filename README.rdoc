@@ -1,18 +1,17 @@
-<h1><b>INFO:</b></h1>
-
+<b>INFO:</b>
 - Krzysztof Ochędzan, 206284
 
 - Projekt na zaliczenie
 
-
-<h1><b>Użyte gemy:</b></h1>
-
--
+<hr>
+<b>Użyte gemy:</b>
 
 -
 
+-
 
-<h1><b>Wykonane zadania:</b></h1>
+
+<b>Wykonane zadania:</b>
 
 -Responsywność strony
 
@@ -28,7 +27,6 @@
 
 
 
-<h1><b>Link do Heroku:</b></h1>
-
+<b>Link do Heroku:</b>
 http://kochedzan.herokuapp.com/
 
