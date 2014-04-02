@@ -1,9 +1,32 @@
 + INFO:
-Pierwszy projekt na zaliczenie.
+
+- Krzysztof Ochędzan, 206284
+
+- Projekt na zaliczenie
+
 
 + Użyte gemy:
 
+-
+
+-
+
+
++ Wykonane zadania:
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
 
 + Link do Heroku:
+
 http://kochedzan.herokuapp.com/
 
