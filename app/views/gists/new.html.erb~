@@ -1,4 +1,4 @@
-<h1>FILL NEW CODE FORM</h1>
+<h1>NEW GIST</h1>
 
 <%= render 'form' %>
 

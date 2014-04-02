@@ -17,19 +17,19 @@
       </ul>
     </div>
   <% end %>
-  <div class="field">
+  <div id="input1" class="field">
     <%= f.label :LANGUAGE %><br>
     <%= f.select :lang, all_lexers %>
   </div> 
-<div class="field">
+<div id="input2" class="field">
     <%= f.label :DESCRIPTION %><br>
     <%= f.text_field :description %>
   </div>
-  <div class="field">
+  <div id="input3" class="field">
     <%= f.label :CODE %><br>
     <%= f.text_area :snippet %>
   </div>
  
     <%= f.submit 'CONFIRM', data: { confirm: 'Are you sure ?' }, :class => "btn btn-default btn-md btn-active" %></button>&nbsp;&nbsp;
-<%= link_to 'BACK', gists_path, :class => "btn btn-default" %>
+<%= link_to 'CANCEL', gists_path, :class => "btn btn-default" %>
 <% end %>

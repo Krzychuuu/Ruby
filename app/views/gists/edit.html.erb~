@@ -1,9 +1,10 @@
-<h1>EDIT</h1>
+<hr>
+<h1>EDITION</h1>
+<hr>
 
 <%= render 'form' %>
 
-<%= link_to 'SHOW', @gist, data: { confirm: 'Are you sure ?' }, :class => "btn btn-info" %>
-<%= link_to 'BACK', gists_path, data: { confirm: 'Are you sure ?' }, :class => "btn btn-danger" %>
+
 
 
 

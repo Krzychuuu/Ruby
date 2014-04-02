@@ -1,16 +1,18 @@
-<p id="noticewlasny"><%= notice %></p>
+<br><hr><h1>GIST DETAILS</h1>
+<hr><p id="noticewlasny"><%= notice %></p>
 <p>
   <strong>LANGUAGE:</strong>
-  <%= @gist.lang %>
 </p>
+<%= raw Pygments.highlight(@gist.lang, lexer: @gist.lang) %>
+<p>
+  <strong>DESCRIPTION:</strong><br><br>
+</p>
+<%= raw Pygments.highlight(@gist.description, lexer: @gist.lang) %>
 <p>
   <strong>CODE:</strong>
 </p>
 <%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang) %>
-<p>
-  <strong>DESCRIPTION:</strong>
-  <%= @gist.description %>
-</p>
 
-<%= link_to 'EDIT', edit_gist_path(@gist), :class => "btn btn-warning" %>
-<%= link_to 'BACK, gists_path, :class => "btn btn-danger" %>
+
+<%= link_to 'EDIT', edit_gist_path(@gist), :class => "btn btn-default" %>
+<%= link_to 'BACK', gists_path, :class => "btn btn-default" %>
