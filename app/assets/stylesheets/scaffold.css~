@@ -17,9 +17,9 @@ pre {
 	background-color: #E6E8FA;
 }
 #search {
-	width: 15%;
+	width: 25%;
 }
-submit_tag{
+#gist_submit_tag{
 	color:black;
 }
 a {
