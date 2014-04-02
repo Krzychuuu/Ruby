@@ -6,9 +6,17 @@
 
 <b>Użyte gemy:</b>
 
--
+- pygments.rb
 
--
+- quiet_assets
+
+- will_paginate
+
+- will_paginate-bootstrap
+
+- redcarpet
+
+- bootstrap-sass
 
 
 <b>Wykonane zadania:</b>
@@ -28,5 +36,5 @@
 
 
 <b>Link do Heroku:</b>
-http://kochedzan.herokuapp.com/
+http://kochedzan.herokuapp.com
 
