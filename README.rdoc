@@ -3,7 +3,7 @@
 
 - Projekt na zaliczenie
 
-<hr>
+
 <b>Użyte gemy:</b>
 
 -
@@ -13,17 +13,17 @@
 
 <b>Wykonane zadania:</b>
 
--Responsywność strony
+- Responsywność strony
 
--Dodanie i konfiguracja Boostrap
+- Dodanie i konfiguracja Boostrap
 
--Dodanie paginacji -> infinite scrolling.
+- Dodanie paginacji -> infinite scrolling.
 
--Dodanie wyszukiwarki na podstawie języka
+- Dodanie wyszukiwarki na podstawie języka
 
--Kolorowanie składni kodu w gistach
+- Kolorowanie składni kodu w gistach
 
--Zmiana wyglądu formularza dodawania gistów
+- Zmiana wyglądu formularza dodawania gistów
 
 
 
