@@ -1,5 +1,0 @@
-<h1>NEW GIST</h1>
-
-<%= render 'form' %>
-
-
